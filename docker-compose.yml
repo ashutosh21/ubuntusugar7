@@ -9,7 +9,7 @@ services:
         - .:/var/lib/mysql
       environment:
         - MYSQL_ROOT_PASSWORD=root
-        - MYSQL_DATABASE=hilco_sugar
+        - MYSQL_DATABASE=your-sugar-db
         - MYSQL_USER=root
         - MYSQL_PASSWORD=root
       ports:
